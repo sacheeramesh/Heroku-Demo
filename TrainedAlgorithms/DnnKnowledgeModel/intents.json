@@ -1,0 +1,316 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Lexa- Artificial Consultant Agent.", "I'm Lexa- Artificial Consultant Agent!", "I'm Lexa aka Artificial Consultant Agent."],
+         "context_set": ""
+        },
+
+        {"tag": "hospital-bed head ticket",
+         "patterns": ["How to trace my bed head ticket in hospital for legal purposes?",
+         			  "How I get my hospital bed ticket?",
+         			  "I need to get my hospital bed ticket?", 
+         			  "how to get my hospital ticket?"],
+
+         "responses": ["You need your discharge card. Then you need to talk to a doctor. Then the doctor will write a request to the record room to issue the bht. The worker at the record room will find the bht. The attendant will bring the bht to ward. The doctor will answer your questions using the bht. You will not be given the bht to your hand for any reason."],
+         "context_set": ""
+        },
+        {"tag": "hospital-request medical",
+         "patterns": ["How to request a private medical from a hospital?",
+         			  "what is the process of getting a medical?",
+         			  "how to get a valid medical report?", 
+         			  "what needs to get a medical?"],
+
+         "responses": ["Take a chit from a doctor and go to the office of the hospital. Show it to them and pay 50 rupees for a private medical receipt. Take the medical receipt and come back to the ward. In the ward, the doctor will write the medical and give it to you. You need the diagnosis card of your hospital admission to write the medical."],
+         "context_set": ""
+        },
+    
+
+        {"tag": "devsecretary-tree cutting permit",
+         "patterns": ["How do you get a permit to cut a tree?",
+         			  "How to get a tree permit?",
+         			  "what should do for getting a tree cutting permit?", 
+         			  "how to get a legal permit for tree cutting?"],
+
+         "responses": ["Go to your Grama sevaka and state the type of tree you want to cut and the reason. (Eligible reasons would tree is causing damage to the house, tree is not bearing fruits any more, need to cut the tree to build a house in its place). Grama sevaka will request to the A.G. office. If your request gets approved from the committee in A.G. office, you will be issued a permit to cut the tree. Grama sevaka will come to supervise the cutting of the tree. Trees that require a permit are Jack fruit,Trees that don't require a permit are Rubber, Chashew, Lunumidella, Rukattana."],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-tree transport permit",
+         "patterns": ["How do you get a permit to transport a cut tree?",
+         			  "How to get a tree transport permit?",
+         			  "what should do for getting a tree transport permit?", 
+         			  "how to get a legal permit for transport a tree ?"],
+
+         "responses": ["Visit your Grama sevaka and state your request including the type of cut tree, its height and diameter, and where you want to transport it. With Grama sevaka's approval, go to the A.G office and fill the form regarding the transport of the tree, including the number plate of the vehicle used for transport, location you are transporting to. You will have to pay Rs. 150.00 for the process to A.G office. Before you get permission, Grama sevaka will come and inspect the logs of the tree. Permit will be issued for transport only on 2 specific days of the week. When you get the permit from the A.G office, you will require to state the date you are planning to transport. When you get a permit for transport, Grama sevaka will come and brand the logs with a seal. He will also supervise the tranportation of logs."],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-business registration",
+         "patterns": ["What are the documents needed to register a business name?",
+         			  "how to register a business?",
+         			  "what should need to register a business?", 
+         			  "where to go to register a business?"],
+
+         "responses": ["A certificate from Grama Niladari, certified from AG Office. Identity card and copy. Proof of ownership of the land, your business is located in. Note- Charges may apply from Rs. 500 to Rs. 2500 based on the capital investment of the business."],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-business name change",
+         "patterns": ["How to change the registered name of a business?",
+         			  "How to change my business name?",
+         			  "what is the process of changing the registered business name?", 
+         			  "where to go to change my business name?"],
+
+         "responses": ["You will have to fill an application form which is downloadable from the website of the department of business name registration. Along with it you will have to submit the following documents to the department of business name registration at Pagoda, Nugegoda. \\n(1)Identity card of the business owner and copy. \\n(2)Previous certificate of business registration. \\n(3)Letter of affirmation from Grama niladari regarding the change in business name \\n(4)Details of the ownership of the land, on which business is located. \\nFor this procedure, Rs. 2000.00 will be charged. Applications will be accepted only from 9am to 3pm. Certificate will be issued within 5 working days."],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-business name revoke",
+         "patterns": ["How do you cancel a registered business name?",
+         			  "how to revoke my business registration?",
+         			  "how to legally close the registred business?", 
+         			  "how to remove my business name?"],
+
+         "responses": ["You will be required to fill an application form for cancellation Along with it you will have to submit the following documents \\n(1)Proof of identification \\n(2)Last issued certificate of registration of business name \\n(3)A letter of confirmation by the Grama niladari that you have stopped the business( should be signed by the AG) \\nYou won't be charged any fee for cancellation of business name But cancellation should be done within 3 months. Delayed cancellation will be charged Rs. 1000."],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-birth certificate legal copy",
+         "patterns": ["How to obtain a certified copy of the certificate of birth?",
+         			  "how to get a verified copy of the birth certificate?",
+         			  "how to certify the birth certificate copy?", 
+         			  "how to request a valid copy of the birth certificate?"],
+
+         "responses": ["Refer the application to the Divisional Secretariat to the area where the birth occurred. The application can obtain from any Divisional Secretariat. Fees chargeable \\n(1)Where the date of registration or the no. of the entry is given the fee for one copy of the certificate is Rs. 100.00 \\n(2)Where the date of registration or the no. of the entry is not given and a search of registers not exceeding two years is involved fee for one copy of the certificate is Rs. 200.00 \\nRequired fee should pay to the Divisional Secretariat. Duly filled application should submit to the Divisional Secretariat. If you like to obtain the certificate of birth by post, submit a stamped envelop with the application. If the birth is registered a birth certificate will be sent and if the birth is not registered a letter to the effect will be sent. application form-http://gic.gov.lk/gic/pdf/Application_for_birth_certificate_or_search_registeres.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-birth registration in rural hospital",
+         "patterns": ["How to do the registration of births occurred in a rural hospital?",
+         			  "How to register births in a rural hospital?",
+         			  "what is the process of registering births?", 
+         			  "what are the legal actions that should take when in a birth?"],
+
+         "responses": ["The birth is registered by the Registrar of births and deaths of the area where the birth occurred. If the birth has occurred at a Rural Hospital, inform the Registrar of that area for registration of such birth. Appropriate persons for informing of a birth for registration. \\n(1)Father \\n(2)Mother \\n(3)Person present at the time of occurrence of the birth \\n(4)Medical Officer of the hospital \\nObtain the relevant declaration from the Registrar of births and deaths for informing the birth. \\nDocuments to be submitted:- Duly perfected declaration. Hospital reports issued in proof of the occurrence of the birth. A birth can be registered free of charge within a period of 03 months. A copy of the birth certificate is issued to the informant free of charge. Visit the Additional District Registrar of the Divisional Secretariat at your nearest for further information. Declaration form-http://www.rgd.gov.lk/web/images/pdf/births/Particulars_for_registration_of_a_birth_2017-04-25.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-birth registration in home",
+         "patterns": ["How to do the registration of births occurred in a home?",
+         			  "How to register births a home?",
+         			  "what is the process of registering births in a home?", 
+         			  "what are the legal actions that should take when in a birth place in a home?"],
+
+         "responses": ["Inform the Grama Niladari within 07 days of the birth is occurred. Grama Niladari shall send a report to the registrar of the area. The birth is registered by the registrar of births and deaths of the area where birth has occurred. Duly filled declaration of birth shall submit to the registrar of births and deaths of the area. Declaration of birth can be obtained from the registrar. Persons required to give information, \\n(1)Father \\n(2)Mother \\n(3)Each person present at the birth \\n(4)Person have in charge of the child \\nBirth may be register free of charge within a period of 03 months. Birth can be registered after 03 months. Please see the delayed registration of births. A certificate of birth is issued to the informant free of charge. Declaration form-http://www.rgd.gov.lk/web/images/pdf/births/Particulars_for_registration_of_a_birth_2017-04-25.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-birth registration in genaral hospital",
+         "patterns": ["How to do the registration of births occurred in a General hospital?",
+         			  "How to register births in a general hospital?",
+         			  "what is the process of registering births in a general hospital?", 
+         			  "what are the legal actions that should take when in a birth place in a general hospital?"],
+
+         "responses": ["Inform the Registrar of births and deaths at the General Hospital for registration of birth. Appropriate persons for informing of a Birth for registration, \\n(1)Father \\n(2)Mother \\n(3)Person present at the time of occurrence of the birth \\n(4)Medical Officer of the Hospital \\nObtain the relevant declaration from the Registrar of births and deaths at the General Hospital for informing the birth. Documents to be submitted, \\n(1)Duly perfected declaration \\n(2)Hospital report issued in proof of the occurrence of the Birth \\nA Birth can be registered free of charge within a period of 03 months. A copy of the Birth Certificate is issued to the informant free of charge. Visit the Additional District Registrar of the Divisional Secretariat at your nearest for further information. Declaration form-http://www.rgd.gov.lk/web/images/pdf/births/Particulars_for_registration_of_a_birth_2017-04-25.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-birth registration in private hospital",
+         "patterns": ["How to do the registration of births occurred in a private hospital?",
+         			  "How to register births in a private hospital?",
+         			  "what is the process of registering births in a private hospital?", 
+         			  "what are the legal actions that should take when in a birth place in a private hospital?"],
+
+         "responses": ["The Birth is registered by the Registrar of births and deaths of the area where the birth occurred. If the birth has occurred at a private hospital, inform the Registrar of that area for registration of such birth. Appropriate persons for informing of a birth for registration, \\n(1)Father \\n(2)Mother \\n(3)Person present at the time of occurrence of the birth \\n(4)Medical Officer of the Hospital \\nObtain the relevant declaration from the Registrar of births and deaths for informing the birth. Documents to be submitted, \\n(1)Duly perfected declaration \\n(2)Hospital report issued in proof of the occurrence of the birth \\nA birth can be registered free of charge within a period of 03 months. A copy of the birth certificate is issued to the informant free of charge. Visit the Additional District Registrar of the Divisional Secretariat at your nearest for further information. Declaration form-http://www.rgd.gov.lk/web/images/pdf/births/Particulars_for_registration_of_a_birth_2017-04-25.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-birth registration in registered estate",
+         "patterns": ["How to do the registration of births occurred in a registered estate?",
+         			  "How to register births in a registered estate?",
+         			  "what is the process of registering births in a registered estate?", 
+         			  "what are the legal actions that should take when in a birth place in a registered estate?"],
+
+         "responses": ["Inform the estate superintendent within 07 days from the birth is occurred. Persons required to give information, \\n(1)Father \\n(2)Mother \\n(3)Each person present at the birth \\nEstate superintendent will certify the application and send to the Divisional Secretariat through the District Medical Officer. The birth is registered by the District Registrar and the certificate of birth will send to the estate superintendent. Certificate of birth can obtain from the estate superintendent by the informant free of charge."],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-birth registration in foreign country",
+         "patterns": ["How to do the registration of births occurred in a foreign country?",
+         			  "How to register births in a foreign country?",
+         			  "what is the process of registering births in a foreign country?", 
+         			  "what are the legal actions that should take when in a birth place in a foreign country?"],
+
+         "responses": ["Registration of birth of children born outside Sri Lanka to Sri Lankan parents can be registered. At least one of the parents should be a citizen of Sri Lanka /should have dual citizenship at the time of the child’s birth. The declaration should be submitted within three (3) months of such birth to the relevant Diplomatic/consular officer, If not after three (3) months and within one year the Diplomatic/consular officer should record the reason for the delay and affect the registration. After a year if the registration is not done it should get the consent of the Registrar General. If a birth occurs in a foreign country, application for registration of a birth should be forwarded to the relevant Sri Lankan embassy/High Commission. If it is not been registered and If the parents are living in Sri Lankadeclaration for registration of a birth should be forwarded to the Central Record Room of the Registrar General’s Department, Maligawatte, Colombo 10. Documents requesting registration for birth should be submitted by one of the parents or the guardian. Documents required, \\n(1)Declaration form filled by the declarant \\n(2)Birth certificate issued by the relevant country/Hospital record of the child. \\n(3)Birth certificates of the father and the mother. \\n(4)Marriage certificate of parents. \\n(5)Passport copies of the parents at the time of the child’s birth. \\n(6)English translation should be produced to the documents in any other foreign language if needed. \\n£18 (Sterling Pounds) or $25 (US Dollars) or €20 (Euro) should be paid for to the relevant Embassy or High Commission for the registration and issuance of a birth certificate. If the declaration is submitted to the Central Record Room of the Registrar General’s Department, Rs.3900 should be paid to the consular section of the Ministry of External Affairs and hand over the receipt to the Central Record Room for the registration and issuance of a birth certificate."],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-past birth registration",
+         "patterns": ["How to do the registration of a past birth?",
+         			  "how to register a birth later?",
+         			  "what should do when you don't register a birth on time?", 
+         			  "what is the process of registering past birth?"],
+
+         "responses": ["If a birth has not been registered with 03 months since its occurrence it may be registered. The declaration should be produced to the Additional District Registrar of the Divisional Secretariat where the birth occurred. Persons eligible for this, \\n(1)Any party having interest of \\n(2)One of the parents \\nFee chargeable is Rs. 50.00 Only the following documents should be submitted with the declarations produced within one year since the occurrences of the birth. \\n(1)Marriage certificate of parents if they are married \\n(2)One of the following documents in proof of the date and place of birth of the subject. \\n-Hospital birth report or certified copy \\n-Grama Niladhari birth report or certified copy \\n-Estate birth report or certified copy \\n-Public Health Officer's certificate \\nFollowing documents should be produced with the declaration produced after one year since the occurrence of the birth. \\n(1)Marriage certificate of parents if they are married \\n(2)Nil result sheet \\n(3)One of the following documents indicating date and place of birth of the person \\n-Hospital report of certified copy \\n-Grama Niladhari report or certified copy \\n-Estate birth report or certified copy \\n-Copy of the Midwife's birth register \\nDeclaration form-http://www.rgd.gov.lk/web/images/pdf/births/b6.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-adopt a child",
+         "patterns": ["How to do the registration of adopted children?",
+         			  "how to adopt a child legally?",
+         			  "what is the process of legal child adoption?", 
+         			  "what should we do when adopting a child?"],
+
+         "responses": ["The age of the adoptee child should not be more than 14 years. Requirements to be met by the applicant, \\n(1)He / She should be more than 25 years of age. \\n(2)The age gap between the applicant and the adoptee child should be at least 21 years. \\nThis will not apply if the child concerned is a descendant of the applicant / his brother or sister / any of their married partners. A child's consent is required if he/she is over 10 years old. Spouses (husband and wife) should produce an application. The order of adoption is issued by the District Court. This order should be registered at the Registrar General's Department. Birth of the adoption child can be re-registered Following documents should be submitted for re-registration of such birth, \\n(1)Application for a re-registration of a birth \\n(2)Parents' certificate of Marriage \\n(3)Parents' certificates Births \\n(4)Certificate of the Adoption \\nhe application for re-registration of birth should be produced to the Zonal Office of the Registrar General's Department to which the area where the child is born belongs to."],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-death at home",
+         "patterns": ["How to do the registration of death occurred at home?",
+         			  "what should we do when someone died at home?",
+         			  "how to you inform someone who died at home?", 
+         			  "how to get a death certificate when someone's death at home?"],
+
+         "responses": ["Inform the Grama Niladari within 07 days of the death is occurred. Grama Niladari shall send a report to the registrar of the area. The death is registered by the registrar of births and deaths of the area where death has occurred. Declaration of death can be obtained from the registrar. Persons required to give information, \\n(1)Close relation present at the death. \\n(2)Close relation who looks after at the death. \\n(3)If there is no relation as given above., \\n(4)Relation who residing in the area of the registrar division where the death occurred. \\n(5)If there is no relation as given above. \\n(6)Person present at the death \\n(7)Occupier where the death occurred. \\n(8)If there is no person as given above. \\n(9)The person who cremate or bury the body. \\nDeath may be register free of charge within a period of 03 months. Death can be registered after 03 months. Please see the delayed registration of deaths. Certificate of death is issued to the informant free of charge"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-death at rural hospital",
+         "patterns": ["How to do the registration of death occurred in a rural hospital?",
+         			  "what should do when death in the rural hospital?",
+         			  "what is the legal process of registering a death in a rural hospital?", 
+         			  "how to inform a death at a rural hospital?"],
+
+         "responses": ["The death is registered by the Registrar of births and deaths of the area where the death occurred. If the death has occurred at a rural hospital, inform the Registrar of that area for registration of such death. Appropriate persons for informing of a death for registration, \\n(1)Person present at the time of occurrence of the death \\n(2)Person who is treated at the time of occurrence of the death \\n(3)Medical Officer of the hospital \\nObtain the relevant declaration from the Registrar of births and deaths for informing the death. Documents to be submitted, \\n(1)Duly perfected declaration \\n(2)Hospital report issued in proof of the occurrence of the death \\nA death can be registered free of charge within a period of 03 months. A copy of the certificate of death is issued to the informant free of charge. Visit the Additional District Registrar of the Divisional Secretariat at your nearest for further information. Declaration form-http://www.rgd.gov.lk/web/images/pdf/death/b11.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-death at general hospital",
+         "patterns": ["How to do the registration of a death occurred in a general hospital?",
+         			  "what should do when death in the general hospital?",
+         			  "what is the legal process of registering a death in a general hospital?", 
+         			  "how to inform a death at a general hospital?"],
+
+         "responses": ["Inform the Registrar of births and deaths at the General Hospital for registration of the death. Appropriate persons for informing of a death for registration, \\n(1)Person present at the time of occurrence of the death \\n(2)Person who is treated at the time of occurrence of the death \\n(3)Medical Officer of the Hospital \\nObtain the relevant declaration from the Registrar of births and deaths at the General Hospital for informing the death. Documents to be submitted, \\n(1)Duly perfected declaration \\n(2)Hospital report issued in proof of the occurrence of the death \\nA death can be registered free of charge within a period of 03 months. A copy of the certificate of death is issued to the informant free of charge. Visit the Additional District Registrar of the Divisional Secretariat at your nearest for further information. Declaration form-http://www.rgd.gov.lk/web/images/pdf/death/b11.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-death at private hospital",
+         "patterns": ["How to do the registration of a death occurred in a private hospital?",
+         			  "what should do when death in the private hospital?",
+         			  "what is the legal process of registering a death in a private hospital?", 
+         			  "how to inform a death at a private hospital?"],
+
+         "responses": ["The death is registered by the Registrar of births and deaths of the area where the death occurred. If the death has occurred at a private hospital, inform the Registrar of that area for registration of such death. Appropriate persons for informing of a death for registration, \\n(1)Person present at the time of occurrence of the death \\n(2)Person who is treated at the time of occurrence of the death \\n(3)Medical Officer of the hospital Obtain the relevant declaration from the Registrar of births and deaths for informing the death. Documents to be submitted, \\n(4)Duly perfected declaration \\n(5)Hospital report issued in proof of the occurrence of the death \\nA death can be registered free of charge within a period of 03 months. A copy of the certificate of death is issued to the informant free of charge. Visit the Additional District Registrar of the Divisional Secretariat at your nearest for further information. Declaration form-http://www.rgd.gov.lk/web/images/pdf/death/b11.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-death in a registered estate",
+         "patterns": ["How to do the registration of a death occurred in a registered estate?",
+         			  "what should do when death in the registered estate?",
+         			  "what is the legal process of registering a death in a registered estate?", 
+         			  "how to inform a death at a private registered estate?"],
+
+         "responses": ["Inform the estate superintendent within 24 hours of the death is occurred. Persons required to give information, \\n(1)Relation of the dead person \\n(2)Each person present at the death \\n(3)Occupier of the building where the death occurred \\n(4)Each person who will engage in the cremation \\nDocuments to be submitted, \\n(1)Medical reports of the dead person if any \\n(2)Clinical reports of the dead person, if any \\nThe death will record and the application certified by the Estate superintendent, will send to the Divisional Secretariat through the District Medical Officer. The death is registered by the District Registrar and the certificate of death will send to the estate superintendent. Certificate of death can obtain from the estate superintendent by the informant free of charge."],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-death in a foreign country",
+         "patterns": ["How to do the registration of a death occurred in a foreign country?",
+         			  "what should do when death in the foreign country?",
+         			  "what is the legal process of registering a death in a foreign country?", 
+         			  "how to inform a death at a private foreign country?"],
+
+         "responses": ["Registration of death occurred outside Sri Lanka to Sri Lankan passport holder/ dual citizenship holder can be registered. The declaration should be submitted within three (3) months of such death to the relevant Diplomatic/consular officer, If not after three (3) months and within one year the Diplomatic/consular officer should record the reason for the delay and affect the registration. After a year if the registration is not done it should get the consent of the Registrar General. The required documents for the registration of a Death, \\n(1)Declaration form filled by the declarant, Documents to prove the identification of the declarant. \\n(2)Submit a document to prove the deceased is a citizen of Sri Lanka. \\n(3)Death certificate issued by the relevant country /Hospital records of deceased \\n(4)If the cause of the death is not included in Death certificate issued by the relevant country, It should be proved by supporting documents. \\n(5)Birth certificate of the deceased. \\n(6)Cargo receipts will be needed, if the death is been registered in Sri Lanka \\n(7)Documents to prove the identification of the declarant. \\nIf a death occurred in a foreign country, declaration for registration of death should be forwarded to the relevant Sri Lankan embassy/High Commission. If it is not been registered and If the declarant is living in Sri Lanka declaration for registration of death should be forwarded to the Central Record Room of the Registrar General’s Department, Maligawatte, Colombo 10. £10(Sterling Pounds), $13(USDOLLAR), €11 (Euro), should be paid for registration and issuance of the death certificate to the relevant Embassy or High Commission. If the declaration is submitted to the Central Record Room of Registrar General Department, Rs.2170 should be paid to the consular section of the Ministry of External Affairs and have to hand over the receipt to the central record room."],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-past death registration",
+         "patterns": ["How to do the registration of a past death?",
+         			  "what should we do when a death is not registered at the time?",
+         			  "how to inform death later?", 
+         			  "what is the legal process of late death registration?"],
+
+         "responses": ["If a death has not been registered with 03 months since its occurrence it may be registered. Death can only be registered only if a period of 25 yrs. has not been lapsed since the occurrence of such death. Persons eligible for this, \\n(1)Any party having the interest of \\n(2)One of the parents \\nDeclaration can be produced by, \\n(1)Close relation present at the time of death or who took care of the deceased when he/she was ill for the last time \\n(2)Any other party interested \\nFee chargeable is Rs.50.00 Declaration form-http://www.rgd.gov.lk/web/images/pdf/death/b15.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-death birth certificate legal copy",
+         "patterns": ["How to obtain a certified copy of the death certificate ?",
+                       "how to get a verified copy of the death certificate?",
+                       "how to certify the death certificate copy?", 
+                       "how to request a valid copy of the death certificate?"],
+
+         "responses": ["Refer the application to the Divisional Secretariat of the area where the death has occurred. The application can be obtained from any Divisional Secretariat. Fees chargeable, \\n(1)Where the date of registration or the no. of the entry is given the fee for one copy of the certificate is Rs. 100.00 \\n(2)Where the date of registration or the no. of the entry is not given and a search of registers not exceeding two years is involved fee for one copy of the certificate is Rs. 200.00 \\nRequired fee should pay to the Divisional Secretariat. Duly filled application should submit to the Divisional Secretariat. If you like to obtain the certificate of death by post, submit a stamped envelop with the application. If the death is registered a certificate of death will be sent and if the death is not registered a letter to the effect will be sent. Application form-http://www.rgd.gov.lk/web/images/pdf/death/b63a.pdf"],
+         "context_set": ""
+        },
+        {"tag": "devsecretary-marriage certificate legal copy",
+         "patterns": ["How to obtain a certified copy of the marriage certificate ?",
+                       "how to get a verified copy of the marriage certificate?",
+                       "how to certify the marriage certificate copy?", 
+                       "how to request a valid copy of the marriage certificate?"],
+
+         "responses": ["Refer the application to the Divisional Secretariat of the area where the registration took place. The application can obtain from any Divisional Secretariat. Fees chargeable, \\n(1)Where the date of registration or the no. of the entry is given the fee for one copy of the certificate is Rs.100.00 \\n(2)Where the date of registration or the no. of the entry is not given and a search of registers not exceeding two years is involved fee for one copy of the certificate is Rs.200.00 \\nRequired fee should submit to the Divisional Secretariat. Duly filled application should be submitted to the Divisional Secretariat. If you like to obtain the certificate of marriage by post, submit a stamped envelop with the application. If the marriage is registered, a certificate of marriage will be sent and if the marriage is not registered a letter to the effect will be sent. Application form-http://gic.gov.lk/gic/pdf/Application_for_certificate_of_marriage.pdf"],
+         "context_set": ""
+        },
+
+
+        {"tag": "law-reapply missing passport",
+         "patterns": ["how to file a complaint relating to missing passports?",
+         			  "how to you complain about a missing passport?",
+         			  "what should you do when lost the passport?", 
+         			  "how to reapply for the passport?"],
+
+         "responses": ["\\nStep 1: The person concerned has to go to the Police Station to make a complaint. \\nStep 2: The person concerned requests for an extract of complain form once the statement is written by the Police officer. (The Police station charges Rs.25.00 for each page of the extracted complaint.) \\nStep 3: The police officer issues the extract of complaint form to the person concerned. \\nStep 4: The person concerned has to fill in the form issued by the Department of Immigration and Emigration along with attaching support documents and hand it over to the Department of Immigration and Emigration. (Support documents have to be brought based on the department's requests.) \\nStep 5: The officer at the Department of Immigration and Emigration verifies the application with the relevant police station before certifying the application request. \\nStep 6: The person concerned has to collect the Passport from the Department of Immigration and Emigration. \\nDocuments Required:\\nNIC Number \\nPrevious Passport Number \\nDriving License Number"],
+         "context_set": ""
+        },
+        {"tag": "law-reapply missing driving licenses",
+         "patterns": ["how to file a complaint relating to driving licenses?",
+         			  "how to you complain about a driving licenses?",
+         			  "what should you do when lost the driving licenses?", 
+         			  "how to reapply for the driving licenses?"],
+
+         "responses": ["\\nStep 1: The person concerned has to go to the Police Station to make a complaint. \\nStep 2: The person concerned requests for an extract of complaint form once the statement is written by the Police officer. (The Police station charges Rs.25.00 for each page of the extracted complaint.) \\nStep 3: The police officer issues the Extract of complaining form to the person concerned. \\nStep 4: The person concerned has to fill in the form issued by the Department of Motor Vehicles along with attaching support documents and hand it over to the Department of Motor Vehicles. (Support documents have to be brought based on the department's requests.) \\nStep 5: The officer at the Department of Motor Vehicles verifies the application with the relevant police station before certifying the application request. \\nStep 6: The person concerned has to collect the Driving License from the Department of Motor vehicles. \\nDocuments Required:-\\nNIC Number \\nPassport Number \\nPrevious Driving License Number"],
+         "context_set": ""
+        },
+        {"tag": "law-reapply missing nic",
+         "patterns": ["how to file a complaint relating to NIC?",
+         			  "how to you complain about a NIC?",
+         			  "what should you do when lost the NIC?", 
+         			  "how to reapply for the NIC?"],
+
+         "responses": ["\\nStep 1: The person concerned has to go to the Police Station to make a complaint. \\nStep 2: The person concerned requests for an extract of complaint form once the statement is written by the Police officer. (The Police station charges Rs.25.00 for each page of the extracted complaint.) \\nStep 3 : The police officer along with the extract of complaint issues the form issued by the Department of Registration of Persons to the person concerned. \\nStep 4 : The person concerned has to fill in the form issued by the Department of Registrations of Persons along with, attach two photos and get it certified by the Grama Niladari , Divisional Secretariat and the respective Police station. (The Grama Niladari verifies the application with the relevant police station before certifying the application request. The person concerned has to get his / her application request certified by the respective authorities in their own divisions.) \\nStep 5 : The person concerned has to submit a certified application to the Grama Niladari. \\nStep 6: The Grama Niladari submits certified application to the Divisional Secretarial Who in turn submits the application to the Department of Registration of Persons. \\nStep 7: The person concerned has to collect the National Identity card either from the Grama Niladari Office or the person will receive the National Identity Card by Registered Post if he/she has provided a stamped envelope to the Grama Niladari. \\nDocuments Required:-\\nPrevious NIC Number \\nPassport Number \\nDriving License Number"],
+         "context_set": ""
+        },
+        {"tag": "law-renewal of gun permit",
+         "patterns": ["How to request a renewal of gun permit on a yearly basis?",
+         			  "how to renew the gun permit?",
+         			  "how to update gun permit?", 
+         			  "what should do when the gun permit expires?"],
+
+         "responses": ["\\nStep 1: Applicant must obtain the draft application form ( DOP AG2 ) from the Divisional Secretarial Office \\nStep 2:Filled application form should be handed over to the Divisional Secretarial Office. The reasons for the request should be highlighted and justified. \\nStep 3: The Divisional Secretarial Officers inform the respective police station and the Grama Niladari within the Applicant's locality. \\nStep 4: The Grama Niladhari and the Police Officer have to visit the applicant and identify, evaluate the need for the equipment by the Applicant. \\nStep 5: The equipment permit is issued only once both the Grama Niladari and the Police Officers are satisfied. \\nDocuments Required:-\\nName and Address of the Applicant \\nThe Number and the description of the gun for which the license is desired. Viz. type, makers name and the number on the barrel. \\nIf required should produce such gun before the licensing authority for inspection \\nThe licensing authority should be satisfied that the applicant has the necessary skills to use such"],
+         "context_set": ""
+        },
+        {"tag": "law-request a clearance certificate for local",
+         "patterns": ["How to request a clearance certificate of a potential employee of an organization?",
+         			  "how to get a clearance certificate?",
+         			  "what is the process to get a clearance certificate?", 
+         			  "what should do for getting a clearance certificate for an employee?"],
+
+         "responses": ["\\nStep 1: The applicant has to submit a handwritten application request to the local Police Station. \\nStep 2: The filled application request along with the attached letter of request for a clearance certificate by the organization in which the applicant is about to be employed is to be produced to the Officer in charge of the local police station. \\nStep 3: The police officer summons the applicant for a fingerprint report \\nStep 4: The local police station refers to the submitted application to the Criminal Records Division for verification purposes. \\nStep 5: On satisfactory terms, the applicant is issued a clearance certificate by the Officer in charge of the local Police Station. \\nNote: If the Officer in Charge of the local police station personally knows the applicant the Clearance Certificate is issued within a day or else the Clearance Certificate is issued within 14 days."],
+         "context_set": ""
+        },
+        {"tag": "law-request a clearance certificate for abroad",
+         "patterns": ["How to request a clearance certificate to seek employment abroad?",
+                       "how to get a clearance certificate for abroad job?",
+                       "What is the process to get a clearance certificate abroad job?", 
+                       "what should do for getting a clearance certificate for employment abroad?"],
+
+         "responses": ["\\nStep 1: Applicant has to make a payment of Rs.500.00 and obtain an application form from the Police Headquarters. \\nStep 2: Applicant fills form and hands over the application to the Police Headquarters Colombo. \\nStep 3: The Police Headquarters in Colombo, refers the application and requests the local police station from where the applicant hails to produce a clearance report *Note: If the applicant has resided in several locations within Sri Lanka the Police Headquarters requests the relevant police stations where the applicant resided to produce a clearance report. \\nStep 4: The Police headquarters also refer the application to the CID, Director of Internal Intelligence, and the National Identity Card Department for verification purposes. \\nStep 5: On satisfactory terms, the Police Headquarters issues the clearance certificate for the applicant. "],
+         "context_set": ""
+        },
+        {"tag": "law- complain about child abuse",
+         "patterns": ["How to file a complaint regarding a child used as a servant or laborer?",
+                       "How to complain about child abuse?",
+                       "What to do for child abuse?", 
+                       "What is the process of taking legal actions for child abuse?"],
+
+         "responses": ["\\nStep 1: The complainer has to inform the Women and Child Abuse Division about the case via a phone call, letter or visit the respective division. \\nStep 2: The police officers verify the complaint by visiting the locality of the complainer. \\nNote: The police can inspect the place without a warrant. However an officer from the department of labor must be taken or have a court order, this is done only if the relevant evidence is provided. \\nStep 3: The police verify on the suspect's background and if needed can take the suspect to custody. \\nStep 4: The police officer directs the suspect to a court case."],
+         "context_set": ""
+        }
+   ]
+}
