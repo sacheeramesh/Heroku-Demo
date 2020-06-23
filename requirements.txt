@@ -1,6 +1,5 @@
 Flask==1.1.1
 numpy>=1.9.2
+nltk
 tflearn
 tensorflow
-random
-json
