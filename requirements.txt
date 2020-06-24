@@ -5,4 +5,4 @@ flask_restful
 flask-cors
 flask
 gunicorn
-tensorflow==1.0.0
+tensorflow==1.15.2
