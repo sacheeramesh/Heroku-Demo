@@ -1,5 +1,7 @@
-Flask
 numpy
 tflearn
 nltk
 flask_restful
+flask-cors
+flask
+gunicorn
