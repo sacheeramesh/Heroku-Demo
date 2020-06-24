@@ -2,5 +2,4 @@ Flask
 numpy
 tflearn
 nltk
-nltk.stem.lancaster
 flask_restful
