@@ -115,7 +115,6 @@ def chat(inp):
 
 class DnnKnowledgeApi(Resource):
     def post(self):
-        
         return {"response from bot : " :"response" }, 201
 
 
