@@ -114,10 +114,8 @@ def chat(inp):
 
 class DnnKnowledgeApi(Resource):
     def post(self):
-        query_json = request.get_json(force=True)
-        query = query_json['query']
-        response = chat(query)
-        return {"response from bot : " :response }, 201
+        
+        return {"response from bot : " :"response" }, 201
 
 
 api.add_resource(DnnKnowledgeApi, '/dnnapi')
