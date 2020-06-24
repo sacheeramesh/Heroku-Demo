@@ -1,6 +1,7 @@
 from flask import Flask, request  # import flask
 from flask_restful import Resource, Api  # for API building
 import nltk
+nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
 import numpy
 import tflearn
