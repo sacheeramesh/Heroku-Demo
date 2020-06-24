@@ -1,3 +1,6 @@
-Flask==1.1.1
-numpy>=1.9.2
+Flask
+numpy
 tflearn
+nltk
+nltk.stem.lancaster
+flask_restful
