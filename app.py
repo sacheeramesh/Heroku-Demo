@@ -125,7 +125,7 @@ api.add_resource(DnnKnowledgeApi, '/dnnapi')
 
 class Home(Resource):
     def get(self):
-        return "Use the API"
+        return "<h3>Use the API</h3>"
 
 
 api.add_resource(Home, '/')
